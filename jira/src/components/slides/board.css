@@ -1,0 +1,9 @@
+.board{
+    min-width: 300px;
+    border: 1px solid green ;
+    max-height: 100%;
+}
+.board_top{
+    display: flex;
+    gap:120px
+}
