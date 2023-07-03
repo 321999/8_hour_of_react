@@ -2,9 +2,13 @@
     display: flex;
     gap: 10px;
     align-items: center;
-    padding: 10px;
-    border-radius: 30px;
-    font-size: 16px;
+    padding: 4px 8px;
+    border-radius: 40px;
+/* to look no different color */
+    background-color: gray;
+    width: fit-content;
+    font-size: 14px;
+    /* width: ; */
 }
 
 /* may be svg close button sabke andar aata hoga */
@@ -12,5 +16,6 @@ chip svg{
     height: 16px;
     width: 16px;
     /* when u go to the button the cursor will change */
-    cursor: pointer;
+    /* cursor: wait; */
+    cursor:pointer;
 }

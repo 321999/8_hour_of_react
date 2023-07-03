@@ -2,3 +2,53 @@
     display: flex;
     gap:190px;
 }
+.card{
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#fff ;
+    justify-content: space-between ;
+    display: flex;
+    /* flex-wrap: ; */
+    flex-direction: column;
+    gap:10px;
+}
+.card_top{
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+.card_top_labels{
+    border: 1px solid green;
+    /* background-color: yellow; */
+    flex:1;
+    /* so that jiten v div hi saare ek size ke ho  */
+    display: flex;
+    gap:10px;
+}
+.card_top svg {
+    opacity: 0;
+    transition: 200ms;
+  }
+  
+.card:hover .card_top svg{
+    opacity: 1;
+    /* transition: 200ms; */
+    }
+.card_title{
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+}
+.card_footer{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid green;
+}
+/* using display as flex is very nice vichaar */
+.card_footer p{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}

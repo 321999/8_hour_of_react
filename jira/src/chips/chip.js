@@ -6,7 +6,8 @@ export default function Chip(props) {
     <div className="chip" style={{ backgroundColor: props.color }}>
       {props.text}
       {/* agr onclose hua to close kro otherwise return none */}
-      {props.close && <X onclick={props.onclose?props.close:()=>""}/>}
+
+      {props.close && <X onclick={props.onClose?props.onClose:()=>""}/>}
     </div>
   );
 }

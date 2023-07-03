@@ -5,5 +5,6 @@
 }
 .board_top{
     display: flex;
-    gap:120px
+    gap:120px;
+    justify-content: space-between;
 }
