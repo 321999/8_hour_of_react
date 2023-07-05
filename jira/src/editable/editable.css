@@ -1,0 +1,59 @@
+.editable_edit{
+    border: 1px solid green;
+    width: 100%;
+    /* height: 100px; */
+}
+.editable_display{
+    width: 100%;
+    /* background-color: rgb(241, 227, 227); */
+    background-color: #f8f8f8;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    /* color: blue; */
+    /* border:1px solid red; */
+}
+
+.editable_display:hover{
+    background-color: #ccc;
+}
+.editable_edit{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.editable_edit input{
+    border: 1px solid red;
+    border-radius: 30px;
+    padding: 5px 10px;
+    /* ouline none ka matlb border me kuchh mat daalo */
+    outline:none;
+    font-size: 1rem;
+    font-weight: .5rem;
+    /* 1rem */
+}
+.editable_edit_footer{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.editable_edit_footer button{
+    outline: none;
+    border: none;
+    color: #fff;
+    /* background-color: green;
+     */
+     background-color: #1e98d5;
+     transition: 200ms; 
+    border-radius: 30px;
+    padding: 3px 10px;
+    cursor: pointer;
+
+}
+.editable_edit_footer button:hover{
+    background-color: #04567f;
+    /* cursor: pointer; */
+}
+.editable_edit_footer svg{
+    cursor: pointer;
+} 
